@@ -1,7 +1,10 @@
 const doc = document
 const divPai = doc.querySelector('#divPai'), botaoEnviar = doc.querySelector('#botaoEnviar')
 const campoText = doc.querySelector('#textoTarefa')
-let tarefasArray = [], QntTarefPermitida = true, i = 0, jaExiste;
+let tarefasArray = []
+let QntTarefPermitida = true
+let i = 0
+let jaExiste;
 
 
 if (localStorage.tarefa != undefined) tarefasArray = localStorage.getItem('tarefa').split(",")
