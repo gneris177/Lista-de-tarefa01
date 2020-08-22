@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LISTA DE TARFEFAS</title>
+  <link rel="stylesheet" href="css/list-index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>LISTA DE TAREFAS</h1>
+  </header>
+
+  <main>
+    <div class="inputs">
+      <input type="text" placeholder="escreva aqui sua tarefa" class="text"> <br>
+      <button class="btnSubmit">Enviar</button>
+      <button class="btnClean">Limpar</button>
+    </div>
+
+    <div class="container-box">
+      <ul class="main"></ul>
+    </div>
+
+    <span class="ex">
+      <ul class="main">
+        <li> <img src="img/lixeira.png"  height='20px' onclick="exc()"> Estudar Javascript</li>
+        <li> <img src="img/lixeira.png" height='20px' onclick="exc()"> Jogar Futebol</li>
+        <li> <img src="img/lixeira.png" height='20px' onclick="exc()"> Assistir filmes</li>
+      </ul>
+    </span>
+  </main>
+  <script src="../dist/bundle.js"></script>
+</body>
+
+</html>
