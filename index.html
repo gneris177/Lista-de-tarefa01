@@ -2,27 +2,39 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/index.css">
-    <link href="https://fonts.googleapis.com/css2? family = Hind + Guntur: wght @ 300 & display = swap"
-        rel="stylesheet">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LISTA DE TARFEFAS</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img src="public/img/duvidas.png" class="duvidas-icon">
-        <h1>LISTA DE TAREFAS</h1>
-        <nav>
-            <img src="public/img/menu-icon.jpg" class="menu-icon">
-    </header>
+  <header>
+    <h1>LISTA DE TAREFAS</h1>
+  </header>
 
-    <main>
-        <img class="img-lista" src="./public/img/lista.png">
-        <h2>Crie Já<br> Sua Lista</h2>
-        <a href="public/list-index.html"> <button class="btn-va">Quero criar minha Lista</button></a>
-    </main>
+  <main>
+    <div class="inputs">
+      <input type="text" placeholder="escreva aqui sua tarefa" class="text"> <br>
+      <button class="btnSubmit">Enviar</button>
+      <button class="btnClean">Limpar</button>
+    </div>
+
+    <div class="container-box">
+      <ul class="main"></ul>
+    </div>
+
+    <span class="ex">
+      <ul class="main">
+        <li> <img src="img/lixeira.png"  height='20px'> Estudar Javascript</li>
+        <li> <img src="img/lixeira.png" height='20px'> Jogar Futebol</li>
+        <li> <img src="img/lixeira.png" height='20px'> Assistir filmes</li>
+      </ul>
+    </span>
+  </main>
+  <script src="/js/index.js"></script>
 </body>
 
 </html>
